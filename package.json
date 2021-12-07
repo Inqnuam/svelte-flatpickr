@@ -1,6 +1,6 @@
 {
 	"name": "svelte-flatpickr",
-	"version": "3.2.4",
+	"version": "3.2.5",
 	"description": "Flatpickr component for Svelte",
 	"main": "dist/index.cjs.js",
 	"module": "dist/index.js",
@@ -16,18 +16,18 @@
 		"format": "prettier --write --plugin-search-dir=. ./src/* ./test/src/*"
 	},
 	"devDependencies": {
-		"prettier": "^2.3.2",
-		"prettier-plugin-svelte": "^2.3.1",
-		"rollup": "^2.47.0",
+		"prettier": "^2.5.1",
+		"prettier-plugin-svelte": "^2.5.0",
+		"rollup": "^2.60.2",
 		"rollup-plugin-svelte": "^7.1.0",
-		"svelte": "^3.0.0",
-		"svelte2tsx": "^0.4.6"
+		"svelte": "^3.44.2",
+		"svelte2tsx": "^0.4.10"
 	},
 	"dependencies": {
-		"flatpickr": "^4.5.2"
+		"flatpickr": "^4.6.9"
 	},
 	"peerDependencies": {
-		"svelte": "^3.31.0"
+		"svelte": "^3.44.2"
 	},
 	"files": ["dist", "src"]
 }
